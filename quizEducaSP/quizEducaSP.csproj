@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{C27C0FAE-1A11-4843-BF1F-4E176CEC0E25}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>quizEducaSP</RootNamespace>
+    <AssemblyName>quizEducaSP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Splash.cs" />
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAnotacoes.cs" />
+    <Compile Include="TelaAnotacoes.Designer.cs">
+      <DependentUpon>TelaAnotacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaHumanas.cs" />
+    <Compile Include="TelaHumanas.Designer.cs">
+      <DependentUpon>TelaHumanas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaHumanas2.cs" />
+    <Compile Include="TelaHumanas2.Designer.cs">
+      <DependentUpon>TelaHumanas2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaHumanas3.cs" />
+    <Compile Include="TelaHumanas3.Designer.cs">
+      <DependentUpon>TelaHumanas3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaHumanas4.cs" />
+    <Compile Include="TelaHumanas4.Designer.cs">
+      <DependentUpon>TelaHumanas4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaHumanas5.cs" />
+    <Compile Include="TelaHumanas5.Designer.cs">
+      <DependentUpon>TelaHumanas5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaInicial.cs" />
+    <Compile Include="TelaInicial.Designer.cs">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLinguagens.cs" />
+    <Compile Include="TelaLinguagens.Designer.cs">
+      <DependentUpon>TelaLinguagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLinguagens2.cs" />
+    <Compile Include="TelaLinguagens2.Designer.cs">
+      <DependentUpon>TelaLinguagens2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLinguagens3.cs" />
+    <Compile Include="TelaLinguagens3.Designer.cs">
+      <DependentUpon>TelaLinguagens3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLinguagens4.cs" />
+    <Compile Include="TelaLinguagens4.Designer.cs">
+      <DependentUpon>TelaLinguagens4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLinguagens5.cs" />
+    <Compile Include="TelaLinguagens5.Designer.cs">
+      <DependentUpon>TelaLinguagens5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLogin.cs" />
+    <Compile Include="TelaLogin.Designer.cs">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaMaterias.cs" />
+    <Compile Include="TelaMaterias.Designer.cs">
+      <DependentUpon>TelaMaterias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPerguntas.cs" />
+    <Compile Include="TelaPerguntas.Designer.cs">
+      <DependentUpon>TelaPerguntas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPerguntas2.cs" />
+    <Compile Include="TelaPerguntas2.Designer.cs">
+      <DependentUpon>TelaPerguntas2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPerguntas3.cs" />
+    <Compile Include="TelaPerguntas3.Designer.cs">
+      <DependentUpon>TelaPerguntas3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPerguntas4.cs" />
+    <Compile Include="TelaPerguntas4.Designer.cs">
+      <DependentUpon>TelaPerguntas4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPerguntas5.cs" />
+    <Compile Include="TelaPerguntas5.Designer.cs">
+      <DependentUpon>TelaPerguntas5.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAnotacoes.resx">
+      <DependentUpon>TelaAnotacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaHumanas.resx">
+      <DependentUpon>TelaHumanas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaHumanas2.resx">
+      <DependentUpon>TelaHumanas2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaHumanas3.resx">
+      <DependentUpon>TelaHumanas3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaHumanas4.resx">
+      <DependentUpon>TelaHumanas4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaHumanas5.resx">
+      <DependentUpon>TelaHumanas5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInicial.resx">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLinguagens.resx">
+      <DependentUpon>TelaLinguagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLinguagens2.resx">
+      <DependentUpon>TelaLinguagens2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLinguagens3.resx">
+      <DependentUpon>TelaLinguagens3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLinguagens4.resx">
+      <DependentUpon>TelaLinguagens4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLinguagens5.resx">
+      <DependentUpon>TelaLinguagens5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLogin.resx">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaMaterias.resx">
+      <DependentUpon>TelaMaterias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPerguntas.resx">
+      <DependentUpon>TelaPerguntas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPerguntas2.resx">
+      <DependentUpon>TelaPerguntas2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPerguntas3.resx">
+      <DependentUpon>TelaPerguntas3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPerguntas4.resx">
+      <DependentUpon>TelaPerguntas4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPerguntas5.resx">
+      <DependentUpon>TelaPerguntas5.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
